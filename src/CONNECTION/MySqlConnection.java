@@ -18,6 +18,8 @@ public class MySqlConnection
 	
 	public static Connection getConnection() throws SQLException
 	{
+		
+		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
